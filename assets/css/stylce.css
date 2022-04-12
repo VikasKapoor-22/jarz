@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* =======================use of root========================== */
+:root {
+    /* =============fonts-family======== */
+    --font-family-titan: 'Titan One',
+        cursive;
+
+    --font-family-balsamiq: 'Balsamiq Sans',
+        cursive;
+    /* ====================font-sizes=================== */
+    --fs-xxl: 64px;
+    --fs-xl: 36px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+    --fs-xsm: 14px;
+
+    /* ====================font-colors=================== */
+    --text-color-white: rgba(255, 255, 255, 1);
+    --text-color-purple: rgba(165, 50, 255, 1);
+    --text-colo-black: rgba(11, 1, 19, 1);
+    --text-color-black-100: rgba(0, 0, 0, 1);
+    --text-color-green: rgba(0, 92, 6, 1);
+    --text-color-gradient: linear-gradient(180deg, #C60202 -8.58%, #005C06 113.73%);
+    --text-color-danger: rgba(198, 2, 2, 1);
+    --text-color-sky: rgba(179, 255, 199, 1);
+    --text-color-pink: rgba(255, 164, 212, 1);
+}
+
+/* font-family */
+.balsamiq-ff {
+    font-family: var(--font-family-balsamiq);
+}
+
+.titan-ff {
+    font-family: var(--font-family-titan);
+}
+
+.fw-bold {
+    font-weight: 700px;
+}
+
+.fw-semi-bold {
+    font-weight: 600px;
+}
+
+.fw-medium {
+    font-weight: 500px;
+}
+
+.fw-regular {
+    font-weight: 400px;
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.l-cloud {
+    left: 3%;
+    top: 15%;
+    position: absolute;
+}
+
+.r-cloud {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.t-cloud {
+    position: absolute;
+    right: 18%;
+    top: 5%;
+
+}
+
+.box {
+    position: absolute;
+    bottom: -13%;
+}
+
+/* ========header-section======= */
+.hero-section-bg-image {
+    background: linear-gradient(252.1deg, #A9FF92 -3.9%, #8BFA6C 104.25%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-color-sky {
+    background: var(--text-color-sky);
+}
+
+.text-color-black-100 {
+    color: var(--text-color-black-100);
+}
+
+.text-color-pink {
+    background-color: var(--text-color-pink);
+}
+
+.hover-color:hover {
+    color: var(--text-color-black-100);
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+/* ===========main section ==============*/
+.about-section-bg-color {
+    background: url("../image/png/about-section-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.multiple-cloud {
+    top: -30%;
+}
+
+.bottle-cloud {
+    position: absolute;
+    top: 75%;
+    right: 0;
+}
+
+.max-w-390 {
+    max-width: 370px;
+}
+
+.outer-border {
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.pink-shade-bg {
+    background: url("../image/png/pink-bg-shade.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.box-shadow {
+    box-shadow: 0px 8px 28px #EC6AAF;
+}
+
+.yellow-bg-shade {
+    background: url("../image/png/yellow-shade.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.w-19 {
+    width: 19%;
+}
+
+.box-shadow-hover:hover {
+    transform: translateY(-20%);
+    box-shadow: 0px 23px 37px -10px #C99206;
+}
+
+.our-mission-bg-color {
+    background: rgba(197, 197, 255, 1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.roadmap-bg-image {
+    background: url("../image/png/roadmap-bg-img.png    ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wallet {
+    top: 0;
+    left: 0;
+}
+
+.height {
+    height: 400px;
+}
