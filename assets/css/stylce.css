@@ -38,6 +38,8 @@
     --text-color-danger: rgba(198, 2, 2, 1);
     --text-color-sky: rgba(179, 255, 199, 1);
     --text-color-pink: rgba(255, 164, 212, 1);
+    --color-primary: rgba(142, 230, 255, 1);
+
 }
 
 /* font-family */
@@ -297,4 +299,9 @@
 
 .accordion-button::after {
     background-image: url("../image/svg/plus.svg") !important
+}
+
+/* multiple image seciton */
+.multiple-img-bg-color {
+    background: var(--color-primary);
 }
